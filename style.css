@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#screen{
+    font-size: 8px;
+}
+#screen, #screentotal{
+    color: white;
+    padding-right: 8px;
+    text-align: right;
+}
+
+div#operators{
+    background-color: rgb(23, 89, 194);
+    color: rgb(183, 204, 237);
+    padding: 2px;
+    width: 100%;
+}
+
+div#operators > div{
+    display: inline-block;
+    width: 16.6%;
+    text-align: center;
+    cursor: pointer;
+}
+
+div#numpads{
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-wrap:  wrap;
+}
+
+div#numpads > div{
+    display: inline-block;
+    flex: 20%;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+
